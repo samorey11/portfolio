@@ -1,0 +1,33 @@
+.navbar {
+  background-color: rgba(111, 112, 111, .75);
+}
+
+h1, a{
+  font-family: "American Typewriter", Arial, Helvetica, sans-serif;
+  color: white;
+  text-decoration-color: black;
+}
+
+a, .nav-link{
+  color: white
+}
+
+#main {
+  background-image: url(./images/main1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.mainAbout {
+  padding-top: 100px;
+}
+.glass {
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  max-width: 900px;
+}
