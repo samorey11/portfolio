@@ -1,33 +1,95 @@
-.navbar {
-  background-color: rgba(111, 112, 111, .75);
+.navbar, #projects, #sub-main{
+  background-color: rgba(111, 112, 111);
 }
 
-h1, a{
-  font-family: "American Typewriter", Arial, Helvetica, sans-serif;
+h1, a, .accordion-item, #sub-main{
+  font-family:'Courier New', Courier, monospace;
   color: white;
-  text-decoration-color: black;
+}
+
+.accordion-item {
+  font-size: xx-large;
 }
 
 a, .nav-link{
-  color: white
+  color: white;
+}
+
+a:hover {
+  color: green;
+}
+
+.nav-link:hover {
+  color: green;
+}
+
+i:hover {
+  color: green;
+}
+
+h3:hover {
+  color:green;
 }
 
 #main {
   background-image: url(./images/main1.jpg);
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 600px;
 }
 
-.mainAbout {
-  padding-top: 100px;
-}
 .glass {
   background-color: rgba(255, 255, 255, .15);
   backdrop-filter: blur(9px);
   -webkit-backdrop-filter: blur(9px);
   margin-right: auto;
   margin-left: auto;
-  margin-top: 10px;
+  margin-top: 20px;
   max-width: 900px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  vertical-align: middle;
+}
+
+.accordion, .accordion-body {
+  background-color: rgba(111, 112, 111);
+}
+
+.accordion-item {
+  background-color: rgba(111, 112, 111);
+}
+
+.accordion-button {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  display: block;
+  font-weight: 400;
+  font-size:xx-large;
+}
+
+.accordion-button.collapsed {
+  background-color: rgba(111, 112, 111);
+  color: white;
+}
+
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: rgba(111, 112, 111);
+}
+
+.accordion-button:hover {
+  color: green;
+}
+
+.dropdown-toggle::after {
+  color: green;
+}
+
+.dropdown-item:hover {
+  color: green;
+}
+
+.nav-link:focus {
+  color: green;
 }
